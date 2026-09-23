@@ -1,0 +1,50 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+14
+alertaActivada
+3
+.F.
+4
+1
+38
+'Ingrese el porcentaje de uso de CPU:'
+5
+1
+6
+usocpu
+7
+0
+1
+12
+ usocpu > 85
+4
+1
+23
+'ECHALE TRANCA PALANCA'
+13
+4
+1
+28
+'ALERTA: Uso crítico de CPU'
+6
+1
+15
+ alertaActivada
+3
+.V.
+13
+4
+1
+34
+'Uso de CPU medido: ', usocpu, '%'
+4
+1
+42
+'Bandera alertaActivada: ', alertaActivada
+1

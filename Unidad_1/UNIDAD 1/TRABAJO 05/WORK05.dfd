@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+34
+'Ingrese calificación de Exámenes'
+5
+1
+12
+notaExamenes
+4
+1
+50
+'Ingrese calificación de Prácticas de Laboratorio'
+5
+1
+13
+notaPracticas
+4
+1
+45
+'Ingrese calificación de Proyecto Integrador'
+5
+1
+12
+notaProyecto
+4
+1
+48
+'Ingrese calificación de Autoevaluación/Tareas '
+5
+1
+10
+notaTareas
+6
+1
+17
+promedioPonderado
+92
+(notaExamenes * 0.40) + (notaPracticas * 0.30) + (notaProyecto * 0.20) + (notaTareas * 0.10)
+4
+1
+41
+'Calificación Final: ', promedioPonderado
+1

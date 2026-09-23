@@ -1,0 +1,36 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+13
+ PIN_CORRECTO
+4
+4321
+4
+1
+40
+'Ingrese su PIN de acceso (4 dígitos): '
+5
+1
+12
+pinIngresado
+7
+0
+1
+27
+piningresado = PIN_CORRECTO
+4
+1
+33
+'Acceso Denegado: PIN Incorrecto'
+13
+4
+1
+18
+'Acceso Concedido'
+13
+1

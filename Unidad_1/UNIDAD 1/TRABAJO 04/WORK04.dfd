@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+27
+'INGRESE EL RADIO DE DUCTO'
+5
+1
+5
+radio
+4
+1
+31
+'INGRESE LA LONGITUD DEL DUCTO'
+5
+1
+10
+longitudes
+6
+1
+5
+piojo
+10
+3.14159265
+6
+3
+8
+areabase
+23
+piojo * (radio * radio)
+11
+areaLateral
+30
+2 * piojo * radio * longitudes
+7
+volumen
+36
+piojo * (radio * radio) * longitudes
+4
+1
+31
+'RESULTADOS DE LAS DIMENCIONES'
+4
+1
+39
+'area de la base', areabase,'unidades²'
+4
+1
+38
+'area lateral',areaLateral,'unidades²'
+4
+1
+35
+'volumen total',volumen,'unidades³'
+1

@@ -1,0 +1,58 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+24
+'REGISTRO DE ESTUDIANTE'
+4
+1
+27
+'INGRESE NUMERO DE CONTROL'
+5
+1
+15
+numerodecontrol
+4
+1
+25
+'INGRESE NOMBRE COMPLETO'
+5
+1
+6
+nombre
+4
+1
+33
+'INGRESE PROMEDI DE PREPARATORIA'
+5
+1
+8
+promedio
+4
+1
+33
+'¿DOCUMENTACION COMPLETA SI O NO'
+5
+1
+10
+documentos
+7
+0
+1
+17
+documentos = 'SI'
+4
+1
+24
+'COMPLETA TUS DOCUMENOS'
+13
+4
+1
+79
+'DOCUMENTOS COMPLETOS', numerodecontrol, 'NOMBRE', nombre, 'PROMEDIO', promedio
+13
+1

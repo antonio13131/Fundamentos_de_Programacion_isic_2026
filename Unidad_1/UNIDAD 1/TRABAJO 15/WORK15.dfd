@@ -1,0 +1,57 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+intento
+1
+1
+6
+status
+3
+.F.
+9
+1
+29
+intento <= 3 and status = .F.
+4
+1
+38
+'Ingrese la contrasena del servidor: '
+5
+1
+17
+passwordingresada
+7
+1
+1
+29
+intento <= 3 and status = .F.
+4
+1
+24
+'Contrasena incorrecta.'
+6
+1
+7
+intento
+11
+intento + 1
+13
+6
+1
+6
+status
+3
+.V.
+4
+1
+19
+'Conexion exitosa.'
+13
+11
+1

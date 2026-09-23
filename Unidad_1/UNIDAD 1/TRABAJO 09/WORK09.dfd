@@ -1,0 +1,71 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+37
+'Ingrese la Temperatura actual (C): '
+5
+1
+11
+temperatura
+4
+1
+41
+'Ingrese la Humedad Relativa actual (%):'
+5
+1
+7
+humedad
+6
+3
+7
+ tempOk
+43
+(temperatura >= 18) and (temperatura <= 24)
+10
+ humedadOk
+35
+(humedad >= 40) and (humedad <= 60)
+19
+operacionNormativa 
+20
+tempOk and humedadOk
+6
+2
+12
+alertaRiesgo
+36
+(temperatura > 24) or (humedad > 60)
+10
+alertaBaja
+37
+ (temperatura < 18) or (humedad < 40)
+4
+1
+26
+'   ESTADO DEL DATACENTER'
+4
+1
+43
+'Temperatura:           ', temperatura, 'C'
+4
+1
+40
+'Humedad:               ', humedad, ' %'
+4
+1
+44
+'OperaciónNormativa:   ', operacionNormativa
+4
+1
+39
+'Alerta de Riesgo:      ', alertaRiesgo
+4
+1
+41
+ 'Alerta por Niveles Bajos: ', alertaBaja
+1

@@ -1,0 +1,44 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+9
+slaLimite
+5
+200.0
+4
+1
+45
+'Ingrese el tiempo de respuesta medido (ms):'
+5
+1
+15
+tiempoRespuesta
+7
+0
+1
+28
+tiempoRespuesta <= slaLimite
+4
+1
+18
+'no cumple el SLA'
+13
+4
+1
+47
+'Tiempo de Respuesta: ', tiempoRespuesta, ' ms'
+4
+1
+41
+'Limite del Acuerdo:  ', slaLimite, ' ms'
+4
+1
+18
+'si cumple el SLA'
+13
+1

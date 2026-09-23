@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+19
+'QUE QUIERES HACER'
+4
+1
+23
+' 1 Reiniciar Servicio'
+4
+1
+20
+' 2  Mostrar Estado'
+4
+1
+18
+' 3 Limpiar Caché'
+4
+1
+19
+'  4 Cerrar Sesión'
+4
+1
+24
+'Seleccione una opción:'
+5
+1
+10
+opcionmenu
+7
+1
+1
+14
+opcionmenu = 1
+4
+1
+35
+'Ejecutando: Reiniciar Servicio...'
+13
+7
+1
+1
+14
+opcionmenu = 2
+4
+1
+43
+'Ejecutando: Mostrar Estado del Servidor..'
+13
+7
+1
+1
+14
+opcionmenu = 3
+4
+1
+41
+'Ejecutando: Limpiar Caché del Sistema..'
+13
+7
+1
+1
+14
+opcionmenu = 4
+4
+1
+20
+'Cerrando Sesión...'
+13
+4
+1
+23
+'Opción no reconocida.'
+13
+13
+13
+13
+1

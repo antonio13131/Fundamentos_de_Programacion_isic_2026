@@ -1,0 +1,46 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+45
+'Ingrese el Promedio General del estudiante:'
+5
+1
+15
+promediogeneral
+4
+1
+43
+'Ingrese el número de Créditos Aprobados: '
+5
+1
+17
+creditosaprobados
+7
+0
+1
+53
+(promediogeneral >= 85) and (creditosaprobados >= 45)
+4
+1
+16
+'no es elegible'
+13
+4
+1
+16
+'si es elegible'
+4
+1
+40
+ 'Promedio General:   ', promediogeneral
+4
+1
+43
+'Créditos Aprobados:   ', creditosaprobados
+13
+1

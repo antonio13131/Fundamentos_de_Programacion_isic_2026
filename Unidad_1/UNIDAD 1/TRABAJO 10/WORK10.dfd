@@ -1,0 +1,185 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+15
+ JORNADA_DIARIA
+1
+8
+12
+ DIAS_SEMANA
+1
+5
+4
+1
+33
+'Ingrese el Nombre del Proyecto:'
+5
+1
+14
+nombreProyecto
+4
+1
+52
+'Ingrese las Horas Totales de Desarrollo Estimadas:'
+5
+1
+15
+horasDesarrollo
+4
+1
+28
+'Ingrese el Costo por Hora:'
+5
+1
+9
+costoHora
+4
+1
+44
+'Ingrese el Presupuesto Máximo del Cliente:'
+5
+1
+18
+presupuestoCliente
+4
+1
+42
+'Ingrese el Plazo Máximo Tolerado (días):'
+5
+1
+16
+plazoClienteDias
+6
+3
+16
+subtotalManoObra
+27
+horasDesarrollo * costoHora
+18
+ gastosImprevistos
+29
+(subtotalManoObra * 12) / 100
+20
+  descuentoConvenio 
+28
+(subtotalManoObra * 5) / 100
+6
+3
+15
+ costoTotalNeto
+56
+subtotalManoObra + gastosImprevistos - descuentoConvenio
+11
+impuestoIVA
+26
+(costoTotalNeto * 16) /100
+10
+ granTotal
+28
+costoTotalNeto + impuestoIVA
+6
+3
+15
+diasTotalesReq 
+40
+ TRUNC(horasDesarrollo / JORNADA_DIARIA)
+14
+horasSobrantes
+34
+horasDesarrollo MOD JORNADA_DIARIA
+17
+ semanasCompletas
+36
+ TRUNC(diasTotalesReq / DIAS_SEMANA)
+6
+3
+19
+ presupuestoViable 
+33
+(granTotal <= presupuestoCliente)
+12
+ plazoViable
+36
+(diasTotalesReq <= plazoClienteDias)
+16
+proyectoAprobado
+33
+presupuestoViable and plazoViable
+4
+1
+34
+' INFORME FINANCIERO DEL PROYECTO'
+4
+1
+41
+'Proyecto:              ', nombreProyecto
+4
+1
+42
+'Horas de Desarrollo:   ', horasDesarrollo
+4
+1
+37
+'Costo por Hora:        $', costoHora
+4
+1
+44
+'Subtotal Mano de Obra: $', subtotalManoObra
+4
+1
+45
+'Imprevistos (12%):     $', gastosImprevistos
+4
+1
+45
+'Descuento Convenio(5%):$', descuentoConvenio
+4
+1
+42
+'Costo Total Neto:      $', costoTotalNeto
+4
+1
+39
+'IVA (16%):             $', impuestoIVA
+4
+1
+37
+'GRAN TOTAL:            $', granTotal
+4
+1
+21
+' DESGLOSE DE TIEMPO'
+4
+1
+43
+'Días Totales Requeridos: ', diasTotalesReq
+4
+1
+43
+'Horas Sobrantes:         ', horasSobrantes
+4
+1
+45
+'Semanas Laborales Comp.: ', semanasCompletas
+4
+1
+26
+  'DICTAMEN DE VIABILIDAD'
+4
+1
+44
+'Presupuesto Viable:    ', presupuestoViable
+4
+1
+38
+'Plazo Viable:          ', plazoViable
+4
+1
+43
+'PROYECTO APROBADO:     ', proyectoAprobado
+1
