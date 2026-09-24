@@ -1,0 +1,60 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+15
+totaldescargado
+1
+0
+11
+numarchivos
+1
+0
+4
+1
+21
+'gestor de descargas'
+9
+1
+21
+totaldescargado < 100
+4
+1
+47
+'Ingrese el tamaño del siguiente archivo (MB):'
+5
+1
+13
+tamanoarchivo
+6
+2
+15
+totaldescargado
+31
+totaldescargado + tamanoarchivo
+11
+numarchivos
+15
+numarchivos + 1
+4
+1
+53
+'Avance actual: ', totaldescargado, ' MB de 100.0 MB'
+11
+4
+1
+29
+'Cuota alcanzada o superada.'
+4
+1
+43
+'Total Descargado: ', totaldescargado, 'MB'
+4
+1
+36
+'Archivos Procesados: ', numarchivos
+1
