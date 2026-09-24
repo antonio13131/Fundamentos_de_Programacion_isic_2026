@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+28
+'ingrese tamaño total en mb'
+5
+1
+11
+tamañototal
+6
+1
+9
+remanente
+11
+tamañototal
+9
+1
+14
+ remanente > 0
+5
+1
+11
+tamañochunk
+7
+0
+1
+24
+tamañochunk <= remanente
+4
+1
+21
+'excede el remanente'
+13
+6
+2
+9
+remanente
+23
+remanente - tamañochunk
+10
+porcentaje
+46
+((tamañototal - remanente) / tamañototal)* 100
+4
+1
+35
+'preoseso actual',porcentaje ,' %' 
+13
+11
+4
+1
+31
+'descarga finalizada con exito'
+1

@@ -1,0 +1,146 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+17
+totalMBProcesados
+1
+0
+24
+totalPeticionesAtendidas
+1
+0
+4
+1
+21
+'PROCESANDO SERVIDOR'
+5
+1
+13
+numServidores
+8
+1
+8
+servidor
+1
+1
+1
+1
+13
+numServidores
+1
+1
+1
+6
+1
+13
+cargaServidor
+3
+0.0
+9
+1
+18
+cargaServidor < 50
+4
+1
+41
+'Ingrese el tamaño de la petición en MB:'
+5
+1
+15
+tamanioPeticion
+7
+0
+1
+19
+tamanioPeticion = 0
+7
+0
+1
+19
+tamanioPeticion > 0
+13
+7
+0
+1
+40
+(cargaServidor + tamanioPeticion) < 50.0
+4
+1
+42
+'Petición rechazada: excede la capacidad.'
+13
+6
+3
+12
+cargaServido
+31
+cargaServidor + tamanioPeticion
+17
+totalMBProcesados
+35
+totalMBProcesados + tamanioPeticion
+24
+totalPeticionesAtendidas
+28
+totalPeticionesAtendidas + 1
+4
+1
+57
+'Petición atendida. Carga actual: ', cargaServidor, ' MB'
+13
+13
+13
+6
+1
+13
+cargaServidor
+2
+50
+13
+4
+1
+68
+'Servidor ', servidor, ' alcanzó su capacidad máxima o fue saltado.'
+11
+10
+7
+0
+1
+28
+totalPeticionesAtendidas > 0
+6
+1
+18
+promedioMBServidor
+3
+0.0
+13
+6
+1
+18
+promedioMBServidor
+33
+totalMBProcesados / numServidores
+13
+4
+1
+34
+'REPORTE DEL BALANCEADOR DE CARGA'
+4
+1
+45
+'Total de MB Procesados: ', totalMBProcesados
+4
+1
+59
+'Total de Peticiones Atendidas: ', totalPeticionesAtendidas
+4
+1
+51
+'Promedio de MB por Servidor: ', promedioMBServidor
+1

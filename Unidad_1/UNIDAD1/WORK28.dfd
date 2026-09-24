@@ -1,0 +1,111 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+29
+'GENERADOR DE MATRICES ASCII'
+4
+1
+30
+'ingresa la cantidad de filas'
+5
+1
+5
+filas
+4
+1
+33
+'ingresa la cantidad de columnas'
+5
+1
+8
+columnas
+6
+2
+5
+total
+16
+filas * columnas
+6
+cadena
+2
+""
+8
+1
+1
+i
+1
+1
+1
+1
+5
+filas
+1
+1
+1
+8
+1
+1
+j
+1
+1
+1
+1
+8
+columnas
+1
+1
+1
+7
+0
+1
+22
+(i = 1) or (i = filas)
+7
+0
+1
+25
+(j = 1) or (j = columnas)
+6
+1
+6
+cadena
+12
+cadena + " "
+13
+6
+1
+6
+cadena
+13
+cadena + "*" 
+13
+13
+6
+1
+6
+cadena
+12
+cadena + "*"
+13
+10
+4
+1
+6
+cadena
+6
+1
+6
+cadena
+2
+""
+10
+4
+1
+31
+'MATRIZ GENERADA CORRECTAMENTE'
+1
