@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+35
+'HERRAMIENTA DE DIAGNÓSTICO DE RED'
+6
+1
+6
+opcion
+2
+-1
+9
+1
+12
+opcion  <= 0
+4
+1
+20
+"1. Ping a Servidor"
+4
+1
+15
+"2. Traceroute"
+4
+1
+10
+"0. Salir"
+4
+1
+25
+"Seleccione una opción: "
+5
+1
+6
+opcion
+7
+0
+1
+10
+opcion = 1
+7
+0
+1
+10
+opcion = 2
+7
+0
+1
+10
+opcion = 0
+4
+1
+19
+' opcion no valida'
+13
+4
+1
+26
+"Saliendo del programa..."
+13
+13
+4
+1
+26
+"Ejecutando Traceroute..."
+13
+13
+4
+1
+31
+"Ejecutando Ping a Servidor..."
+13
+11
+4
+1
+22
+"Programa finalizado."
+1
