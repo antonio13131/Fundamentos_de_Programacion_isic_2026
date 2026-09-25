@@ -1,0 +1,58 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+25
+" SENSOR DE TEMPERATURA "
+4
+1
+21
+'ingresa temperatura'
+5
+1
+11
+temperatura
+7
+0
+1
+42
+temperatura < -50.0 OR temperatura > 100.0
+13
+4
+1
+61
+'Error: lectura fuera del rango operacional (-50.0 a 100.0).'
+13
+9
+1
+42
+temperatura < -50.0 OR temperatura > 100.0
+4
+1
+21
+'ingresa temperatura'
+5
+1
+11
+temperatura
+7
+0
+1
+42
+temperatura < -50.0 OR temperatura > 100.0
+13
+4
+1
+61
+'Error: lectura fuera del rango operacional (-50.0 a 100.0).'
+13
+11
+4
+1
+55
+'Lectura confirmada y aceptada: ',  temperatura,  ' °C'
+1
