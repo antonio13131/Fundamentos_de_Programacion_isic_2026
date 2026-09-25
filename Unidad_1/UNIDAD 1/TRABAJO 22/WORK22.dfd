@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+59
+ "=== GENERADOR DE DIRECCIONES IP - SUBNET 192.168.1.X ==="
+4
+1
+27
+"Ingrese el host inicial: "
+5
+1
+11
+hostInicial
+4
+1
+25
+"Ingrese el host final: "
+5
+1
+9
+hostFinal
+8
+1
+6
+octeto
+1
+11
+hostInicial
+1
+9
+hostFinal
+1
+1
+5
+4
+1
+20
+"192.168.1.", octeto
+10
+1
