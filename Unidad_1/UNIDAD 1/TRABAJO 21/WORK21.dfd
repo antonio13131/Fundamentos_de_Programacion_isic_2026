@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+51
+"=== EMULADOR DE RED - TRANSMISIÓN DE PAQUETES ==="
+4
+1
+52
+"Ingrese el número total de paquetes a transmitir: "
+5
+1
+13
+totalpaquetes
+8
+1
+1
+I
+1
+1
+1
+1
+13
+totalpaquetes
+1
+1
+1
+4
+1
+47
+"Enviando paquete con número de secuencia: ", i
+10
+4
+1
+69
+"Transmisión finalizada. Total de paquetes enviados: ", totalpaquetes
+1
