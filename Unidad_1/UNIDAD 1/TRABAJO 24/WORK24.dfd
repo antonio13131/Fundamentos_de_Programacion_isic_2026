@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+52
+"=== SCRIPT DE APAGADO - TEMPORIZADOR REGRESIVO ==="
+4
+1
+63
+"Ingrese el tiempo inicial de la cuenta regresiva (segundos): "
+5
+1
+17
+segundosiniciales
+8
+1
+1
+t
+1
+17
+segundosiniciales
+1
+1
+1
+1
+2
+-1
+4
+1
+25
+"Segundos restantes: ", t
+10
+4
+1
+32
+"Servidor Apagado Correctamente"
+1
