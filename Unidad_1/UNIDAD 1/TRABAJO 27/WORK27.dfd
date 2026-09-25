@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+47
+ "=== TABLA DE DIRECCIONAMIENTO DE MEMORIA ==="
+4
+1
+55
+"Ingrese el número máximo de bits a evaluar (1 a 16): "
+5
+1
+7
+maxbits
+8
+1
+1
+i
+1
+1
+0
+1
+7
+maxbits
+1
+1
+1
+6
+1
+11
+direcciones
+5
+2 ^ i
+4
+1
+43
+i, " bits -> ", direcciones, " direcciones"
+10
+1
