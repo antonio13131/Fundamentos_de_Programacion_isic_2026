@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+13
+sumalatencias
+1
+0
+14
+latenciamaxima
+1
+0
+4
+1
+50
+"=== MONITOR DE LATENCIA - DIAGNÓSTICO DE RED ==="
+8
+1
+1
+i
+1
+1
+1
+1
+1
+5
+1
+1
+1
+4
+1
+60
+"Ingrese el tiempo de respuesta de la prueba ", i, " (ms): "
+5
+1
+8
+latencia
+6
+1
+13
+sumalatencias
+24
+sumalatencias + latencia
+7
+0
+1
+25
+latencia > latenciamaxima
+13
+6
+1
+14
+latenciamaxima
+8
+latencia
+13
+10
+6
+1
+16
+promediolatencia
+17
+sumalatencias / 5
+4
+1
+46
+"Latencia Promedio: ", promediolatencia, " ms"
+4
+1
+44
+"Latencia Máxima:   ", latenciamaxima, " ms"
+1
