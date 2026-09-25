@@ -1,0 +1,110 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+7
+cant200
+1
+0
+7
+cant4xx
+1
+0
+7
+cant5xx
+1
+0
+4
+1
+20
+'ANALIZADOR DE LOGS'
+4
+1
+52
+'Ingrese la cantidad total de registros a procesar:'
+5
+1
+14
+totalRegistros
+8
+1
+8
+contador
+1
+1
+1
+1
+14
+totalRegistros
+1
+1
+1
+4
+1
+64
+'Ingrese el código de estado HTTP del registro ', contador, ': '
+5
+1
+10
+codigoHTTP
+7
+0
+1
+16
+codigoHTTP = 200
+7
+0
+1
+39
+codigoHTTP >= 400 and codigoHTTP <= 499
+7
+0
+1
+39
+codigoHTTP >= 500 and codigoHTTP <= 599
+13
+6
+1
+7
+cant5xx
+11
+cant5xx + 1
+13
+13
+6
+1
+7
+cant4xx
+11
+cant4xx + 1
+13
+13
+6
+1
+7
+cant200
+11
+cant200 + 1
+13
+10
+4
+1
+49
+"Total de Registros Procesados: ", totalRegistros
+4
+1
+24
+"Éxito (200): ", cant200
+4
+1
+32
+"Cliente Error (4xx): ", cant4xx
+4
+1
+33
+"Servidor Error (5xx): ", cant5xx
+1
