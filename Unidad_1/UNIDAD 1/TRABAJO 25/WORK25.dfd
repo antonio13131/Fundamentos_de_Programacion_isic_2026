@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+10
+encontrado
+3
+.F.
+1
+i
+1
+1
+4
+1
+47
+"=== ESCANEO DE PROCESOS - BÚSQUEDA DE PID ==="
+4
+1
+27
+"Ingrese el PID a buscar: "
+5
+1
+10
+pidbuscado
+9
+1
+28
+i <= 10 and encontrado = .F.
+4
+1
+53
+"Ingrese el PID del proceso en la posición ", i, ": "
+5
+1
+8
+pidleido
+7
+0
+1
+21
+pidleido = pidbuscado
+13
+6
+1
+10
+encontrado
+3
+.V.
+13
+6
+1
+1
+i
+3
+i+1
+11
+7
+0
+1
+16
+encontrado = .V.
+4
+1
+46
+"PID no localizado tras escanear 10 procesos."
+13
+4
+1
+47
+ "PID localizado en el intento número: ", i - 1
+13
+1
