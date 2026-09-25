@@ -1,0 +1,216 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+11
+saldocuenta
+4
+5000
+15
+totaldepositado
+1
+0
+13
+totalretirado
+1
+0
+6
+3
+13
+contdepositos
+1
+0
+19
+contretirosexitosos
+1
+0
+12
+contrechazos
+1
+0
+6
+2
+10
+opcionmenu
+2
+-1
+9
+continuar
+3
+.V.
+4
+1
+21
+'prosesador de lotes'
+9
+1
+9
+continuar
+4
+1
+24
+'1 prosesar transaccion'
+4
+1
+20
+'0 finalizar secion'
+4
+1
+23
+'seleccione una opcion'
+5
+1
+10
+opcionmenu
+7
+0
+1
+14
+opcionmenu = 1
+13
+4
+1
+56
+'ingrese tipo de transaccion (1 deposito 2 transaccion)'
+5
+1
+15
+tipotransaccion
+7
+0
+1
+42
+tipotransaccion = 1 or tipotransaccion = 2
+4
+1
+30
+'tipo de transaccion invalido'
+13
+4
+1
+36
+'ingrese el monto de la transaccion'
+5
+1
+5
+monto
+7
+0
+1
+9
+monto > 0
+4
+1
+35
+'erro el monto debe ser mayor de 0'
+13
+7
+0
+1
+19
+tipotransaccion = 1
+7
+0
+1
+20
+monto <= saldocuenta
+4
+1
+22
+'fondos insuficientes'
+6
+1
+12
+contrechazos
+16
+contrechazos + 1
+13
+6
+3
+11
+saldocuenta
+17
+saldocuenta-monto
+13
+totalretirado
+19
+totalretirado+monto
+19
+contretirosexitosos
+21
+contretirosexitosos+1
+4
+1
+32
+'retiro registradocorrectamente'
+13
+13
+6
+3
+11
+saldocuenta
+19
+saldocuenta + monto
+15
+totaldepositado
+21
+totaldepositado+monto
+13
+contdepositos
+15
+contdepositos+1
+4
+1
+35
+'deposito registrado correctamente'
+13
+13
+13
+13
+7
+0
+1
+14
+opcionmenu = 0
+13
+6
+1
+9
+continuar
+3
+.F.
+13
+11
+4
+1
+45
+"   REPORTE DE AUDITORÍA FINANCIERA DEL LOTE"
+4
+1
+42
+"Saldo Final:              $", saldocuenta
+4
+1
+46
+"Total Depositado:         $", totaldepositado
+4
+1
+44
+"Total Retirado:           $", totalretirado
+4
+1
+43
+"Depósitos Realizados:     ", contdepositos
+4
+1
+49
+"Retiros Exitosos:         ", contretirosexitosos
+4
+1
+42
+"Transacciones Rechazadas: ", contrechazos
+1
