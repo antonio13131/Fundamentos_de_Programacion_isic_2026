@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+60
+ "=== SERVIDOR WEB - SIMULACIÓN DE CRECIMIENTO DE CARGA ==="
+4
+1
+47
+"Ingrese las peticiones iniciales por minuto: "
+5
+1
+19
+peticionesIniciales
+6
+2
+11
+cargaActual
+19
+peticionesIniciales
+5
+horas
+1
+0
+9
+1
+19
+cargaActual < 10000
+6
+2
+11
+cargaActual
+18
+cargaActual * 1.20
+5
+horas
+9
+horas + 1
+4
+1
+52
+"Hora ", horas, ": ", cargaActual, " peticiones/min"
+11
+4
+1
+54
+"El servidor supera el límite tras ", horas, " horas."
+1
